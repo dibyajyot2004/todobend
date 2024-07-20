@@ -44,17 +44,23 @@ Prerequisites:-
 
 API Endpoints:-
 User Authentication:
+
      Register a new user:-  POST  localhost:4000/api/v1/register
                             request body{
                                           "email": "user@example.com",
+                                          
                                           "username": "username",
+                                          
                                           "password": "password"
+                                          
                                         }
 
      Login a user:-         POST localhost:4000/api/v1/signup
                             request body{
                                            "email": "user@example.com",
+                                           
                                            "password": "password"
+                                           
                                         }
 
 
