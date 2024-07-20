@@ -65,10 +65,15 @@ User Authentication:
 
 
 Task Management:
+
+
       Add a task :          POST  localhost:4000/api/v2/addTask
+      
                             request body{
                                           "title": "Task Title",
+                                          
                                           "body": "Task Description",
+                                          
                                           "email": "email"
                                         }
 
