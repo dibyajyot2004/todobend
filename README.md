@@ -10,18 +10,31 @@ Features:-
 
 Project structure:-
 TODO/
+
 ├── conn/
+
 │   └── conn.js
+
 ├── models/
+
 │   ├── list.js
+
 │   └── user.js
+
 ├── node_modules/
+
 ├── routes/
+
 │   ├── auth.js
+
 │   ├── list.js
+
 │   └── app.js
+
 ├── package-lock.json
+
 ├── package.json
+
 └── .env
 
 Prerequisites:-
